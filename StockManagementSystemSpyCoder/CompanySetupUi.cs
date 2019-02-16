@@ -51,5 +51,7 @@ namespace StockManagementSystemSpyCoder
                 MessageBox.Show(a.Message);
             }
         }
+
+        
     }
 }
