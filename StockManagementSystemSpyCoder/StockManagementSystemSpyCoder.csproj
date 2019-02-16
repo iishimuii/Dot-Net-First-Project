@@ -56,6 +56,12 @@
     <Compile Include="CompanySetupUi.Designer.cs">
       <DependentUpon>CompanySetupUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomeUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeUi.Designer.cs">
+      <DependentUpon>HomeUi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CategorySetupUi .resx">
@@ -63,6 +69,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CompanySetupUi.resx">
       <DependentUpon>CompanySetupUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeUi.resx">
+      <DependentUpon>HomeUi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

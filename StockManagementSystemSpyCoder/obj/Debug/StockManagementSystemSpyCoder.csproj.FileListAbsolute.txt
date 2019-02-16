@@ -8,3 +8,4 @@ D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\
 D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.exe
 D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.pdb
 D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.CompanySetupUi.resources
+D:\DotNet\StockManagementSystemSpyCoder\StockManagementSystemSpyCoder\obj\Debug\StockManagementSystemSpyCoder.HomeUi.resources

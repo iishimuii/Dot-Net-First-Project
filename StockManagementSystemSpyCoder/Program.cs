@@ -17,7 +17,8 @@ namespace StockManagementSystemSpyCoder
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new CategorySetupForm());
-            Application.Run(new CompanySetupUi());
+           // Application.Run(new CompanySetupUi());
+            Application.Run(new HomeUi());
         }
     }
 }
