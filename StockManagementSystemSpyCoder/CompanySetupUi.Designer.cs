@@ -49,20 +49,24 @@
             // 
             // CompanySetupSaveButton
             // 
-            this.CompanySetupSaveButton.Location = new System.Drawing.Point(405, 97);
+            this.CompanySetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.CompanySetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CompanySetupSaveButton.ForeColor = System.Drawing.Color.White;
+            this.CompanySetupSaveButton.Location = new System.Drawing.Point(385, 91);
             this.CompanySetupSaveButton.Name = "CompanySetupSaveButton";
-            this.CompanySetupSaveButton.Size = new System.Drawing.Size(75, 23);
+            this.CompanySetupSaveButton.Size = new System.Drawing.Size(95, 29);
             this.CompanySetupSaveButton.TabIndex = 4;
             this.CompanySetupSaveButton.Text = "Save";
-            this.CompanySetupSaveButton.UseVisualStyleBackColor = true;
+            this.CompanySetupSaveButton.UseVisualStyleBackColor = false;
             this.CompanySetupSaveButton.Click += new System.EventHandler(this.CompanySetupSaveButton_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(56, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "Name";
             // 

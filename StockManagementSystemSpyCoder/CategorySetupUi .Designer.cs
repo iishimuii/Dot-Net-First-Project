@@ -43,27 +43,32 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(85, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name";
             // 
             // categorySetupSaveButton
             // 
-            this.categorySetupSaveButton.Location = new System.Drawing.Point(357, 130);
+            this.categorySetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.categorySetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.categorySetupSaveButton.ForeColor = System.Drawing.Color.White;
+            this.categorySetupSaveButton.Location = new System.Drawing.Point(342, 123);
             this.categorySetupSaveButton.Name = "categorySetupSaveButton";
-            this.categorySetupSaveButton.Size = new System.Drawing.Size(75, 23);
+            this.categorySetupSaveButton.Size = new System.Drawing.Size(90, 34);
             this.categorySetupSaveButton.TabIndex = 1;
             this.categorySetupSaveButton.Text = "Save";
-            this.categorySetupSaveButton.UseVisualStyleBackColor = true;
+            this.categorySetupSaveButton.UseVisualStyleBackColor = false;
             this.categorySetupSaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
             // categorySetupNameTextBox
             // 
-            this.categorySetupNameTextBox.Location = new System.Drawing.Point(246, 65);
+            this.categorySetupNameTextBox.Location = new System.Drawing.Point(171, 65);
             this.categorySetupNameTextBox.Name = "categorySetupNameTextBox";
-            this.categorySetupNameTextBox.Size = new System.Drawing.Size(186, 20);
+            this.categorySetupNameTextBox.Size = new System.Drawing.Size(261, 20);
             this.categorySetupNameTextBox.TabIndex = 2;
             // 
             // panel2
@@ -79,9 +84,9 @@
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel1.Location = new System.Drawing.Point(16, 331);
+            this.panel1.Location = new System.Drawing.Point(4, 331);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(503, 10);
+            this.panel1.Size = new System.Drawing.Size(515, 10);
             this.panel1.TabIndex = 4;
             // 
             // panel4

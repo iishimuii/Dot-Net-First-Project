@@ -88,28 +88,33 @@
             // 
             // categorySetupSaveButton
             // 
-            this.categorySetupSaveButton.Location = new System.Drawing.Point(324, 300);
+            this.categorySetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.categorySetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.categorySetupSaveButton.ForeColor = System.Drawing.Color.White;
+            this.categorySetupSaveButton.Location = new System.Drawing.Point(309, 275);
             this.categorySetupSaveButton.Name = "categorySetupSaveButton";
-            this.categorySetupSaveButton.Size = new System.Drawing.Size(75, 23);
+            this.categorySetupSaveButton.Size = new System.Drawing.Size(90, 31);
             this.categorySetupSaveButton.TabIndex = 11;
             this.categorySetupSaveButton.Text = "Save";
-            this.categorySetupSaveButton.UseVisualStyleBackColor = true;
+            this.categorySetupSaveButton.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(92, 206);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.Size = new System.Drawing.Size(80, 15);
             this.label1.TabIndex = 10;
             this.label1.Text = "Reorder Level";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(92, 155);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 13);
+            this.label2.Size = new System.Drawing.Size(65, 15);
             this.label2.TabIndex = 10;
             this.label2.Text = "Item Name";
             // 
@@ -123,18 +128,20 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(92, 115);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.Size = new System.Drawing.Size(56, 15);
             this.label3.TabIndex = 10;
             this.label3.Text = "Company";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(92, 68);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 13);
+            this.label4.Size = new System.Drawing.Size(54, 15);
             this.label4.TabIndex = 10;
             this.label4.Text = "Category";
             // 

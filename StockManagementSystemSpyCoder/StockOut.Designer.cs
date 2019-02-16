@@ -93,54 +93,66 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(90, 78);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 13);
+            this.label4.Size = new System.Drawing.Size(31, 15);
             this.label4.TabIndex = 32;
             this.label4.Text = "Item";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label5.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(90, 164);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 13);
+            this.label5.Size = new System.Drawing.Size(97, 15);
             this.label5.TabIndex = 34;
             this.label5.Text = "Avalible Quantity";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(90, 37);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.Size = new System.Drawing.Size(56, 15);
             this.label3.TabIndex = 33;
             this.label3.Text = "Company";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(90, 202);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
+            this.label2.Size = new System.Drawing.Size(99, 15);
             this.label2.TabIndex = 35;
             this.label2.Text = "Stock In Quantity";
             // 
             // categorySetupSaveButton
             // 
-            this.categorySetupSaveButton.Location = new System.Drawing.Point(322, 238);
+            this.categorySetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.categorySetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.categorySetupSaveButton.ForeColor = System.Drawing.Color.White;
+            this.categorySetupSaveButton.Location = new System.Drawing.Point(312, 238);
             this.categorySetupSaveButton.Name = "categorySetupSaveButton";
-            this.categorySetupSaveButton.Size = new System.Drawing.Size(75, 23);
+            this.categorySetupSaveButton.Size = new System.Drawing.Size(85, 24);
             this.categorySetupSaveButton.TabIndex = 37;
             this.categorySetupSaveButton.Text = "Add";
-            this.categorySetupSaveButton.UseVisualStyleBackColor = true;
+            this.categorySetupSaveButton.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(90, 123);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 13);
+            this.label1.Size = new System.Drawing.Size(80, 15);
             this.label1.TabIndex = 36;
             this.label1.Text = "Reorder Level";
             // 
@@ -182,6 +194,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -191,35 +204,44 @@
             this.dataGridView1.Location = new System.Drawing.Point(67, 280);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 31;
-            this.dataGridView1.Size = new System.Drawing.Size(421, 58);
+            this.dataGridView1.Size = new System.Drawing.Size(423, 50);
             this.dataGridView1.TabIndex = 43;
             // 
             // SellButton
             // 
+            this.SellButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.SellButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SellButton.ForeColor = System.Drawing.Color.White;
             this.SellButton.Location = new System.Drawing.Point(114, 358);
             this.SellButton.Name = "SellButton";
             this.SellButton.Size = new System.Drawing.Size(75, 23);
             this.SellButton.TabIndex = 44;
             this.SellButton.Text = "Sell";
-            this.SellButton.UseVisualStyleBackColor = true;
+            this.SellButton.UseVisualStyleBackColor = false;
             // 
             // DamageButton
             // 
+            this.DamageButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.DamageButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DamageButton.ForeColor = System.Drawing.Color.White;
             this.DamageButton.Location = new System.Drawing.Point(231, 358);
             this.DamageButton.Name = "DamageButton";
             this.DamageButton.Size = new System.Drawing.Size(75, 23);
             this.DamageButton.TabIndex = 45;
             this.DamageButton.Text = "Damage";
-            this.DamageButton.UseVisualStyleBackColor = true;
+            this.DamageButton.UseVisualStyleBackColor = false;
             // 
             // LostButton
             // 
+            this.LostButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.LostButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LostButton.ForeColor = System.Drawing.Color.White;
             this.LostButton.Location = new System.Drawing.Point(348, 358);
             this.LostButton.Name = "LostButton";
             this.LostButton.Size = new System.Drawing.Size(75, 23);
             this.LostButton.TabIndex = 46;
             this.LostButton.Text = "Lost";
-            this.LostButton.UseVisualStyleBackColor = true;
+            this.LostButton.UseVisualStyleBackColor = false;
             // 
             // Column1
             // 

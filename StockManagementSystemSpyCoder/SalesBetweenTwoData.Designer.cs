@@ -75,29 +75,34 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(86, 75);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 13);
+            this.label4.Size = new System.Drawing.Size(47, 15);
             this.label4.TabIndex = 67;
             this.label4.Text = "To Date";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Schoolbook", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(86, 34);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.Size = new System.Drawing.Size(62, 15);
             this.label3.TabIndex = 68;
             this.label3.Text = "From Date";
             // 
             // categorySetupSaveButton
             // 
-            this.categorySetupSaveButton.Location = new System.Drawing.Point(318, 144);
+            this.categorySetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.categorySetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.categorySetupSaveButton.ForeColor = System.Drawing.Color.White;
+            this.categorySetupSaveButton.Location = new System.Drawing.Point(307, 144);
             this.categorySetupSaveButton.Name = "categorySetupSaveButton";
-            this.categorySetupSaveButton.Size = new System.Drawing.Size(75, 23);
+            this.categorySetupSaveButton.Size = new System.Drawing.Size(86, 32);
             this.categorySetupSaveButton.TabIndex = 69;
             this.categorySetupSaveButton.Text = "Search";
-            this.categorySetupSaveButton.UseVisualStyleBackColor = true;
+            this.categorySetupSaveButton.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
