@@ -32,15 +32,15 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.categorySetupNameTextBox = new System.Windows.Forms.TextBox();
+            this.reorderLevelTextBox = new System.Windows.Forms.TextBox();
             this.categorySetupSaveButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.itemNameTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.categoryComboBox = new System.Windows.Forms.ComboBox();
+            this.companyComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // panel2
@@ -79,12 +79,12 @@
             this.panel3.Size = new System.Drawing.Size(10, 416);
             this.panel3.TabIndex = 9;
             // 
-            // categorySetupNameTextBox
+            // reorderLevelTextBox
             // 
-            this.categorySetupNameTextBox.Location = new System.Drawing.Point(213, 206);
-            this.categorySetupNameTextBox.Name = "categorySetupNameTextBox";
-            this.categorySetupNameTextBox.Size = new System.Drawing.Size(186, 20);
-            this.categorySetupNameTextBox.TabIndex = 12;
+            this.reorderLevelTextBox.Location = new System.Drawing.Point(213, 206);
+            this.reorderLevelTextBox.Name = "reorderLevelTextBox";
+            this.reorderLevelTextBox.Size = new System.Drawing.Size(186, 20);
+            this.reorderLevelTextBox.TabIndex = 12;
             // 
             // categorySetupSaveButton
             // 
@@ -118,12 +118,12 @@
             this.label2.TabIndex = 10;
             this.label2.Text = "Item Name";
             // 
-            // textBox1
+            // itemNameTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(213, 155);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 20);
-            this.textBox1.TabIndex = 12;
+            this.itemNameTextBox.Location = new System.Drawing.Point(213, 155);
+            this.itemNameTextBox.Name = "itemNameTextBox";
+            this.itemNameTextBox.Size = new System.Drawing.Size(186, 20);
+            this.itemNameTextBox.TabIndex = 12;
             // 
             // label3
             // 
@@ -145,30 +145,30 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Category";
             // 
-            // comboBox1
+            // categoryComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(213, 68);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(186, 21);
-            this.comboBox1.TabIndex = 13;
+            this.categoryComboBox.FormattingEnabled = true;
+            this.categoryComboBox.Location = new System.Drawing.Point(213, 68);
+            this.categoryComboBox.Name = "categoryComboBox";
+            this.categoryComboBox.Size = new System.Drawing.Size(186, 21);
+            this.categoryComboBox.TabIndex = 13;
             // 
-            // comboBox2
+            // companyComboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(213, 112);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(186, 21);
-            this.comboBox2.TabIndex = 14;
+            this.companyComboBox.FormattingEnabled = true;
+            this.companyComboBox.Location = new System.Drawing.Point(213, 112);
+            this.companyComboBox.Name = "companyComboBox";
+            this.companyComboBox.Size = new System.Drawing.Size(186, 21);
+            this.companyComboBox.TabIndex = 14;
             // 
             // ItemSetup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.categorySetupNameTextBox);
+            this.Controls.Add(this.companyComboBox);
+            this.Controls.Add(this.categoryComboBox);
+            this.Controls.Add(this.itemNameTextBox);
+            this.Controls.Add(this.reorderLevelTextBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -191,15 +191,15 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox categorySetupNameTextBox;
+        private System.Windows.Forms.TextBox reorderLevelTextBox;
         private System.Windows.Forms.Button categorySetupSaveButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox itemNameTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox categoryComboBox;
+        private System.Windows.Forms.ComboBox companyComboBox;
 
     }
 }

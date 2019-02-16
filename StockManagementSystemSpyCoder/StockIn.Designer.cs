@@ -28,52 +28,52 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.categorySetupNameTextBox = new System.Windows.Forms.TextBox();
+            this.companyComboBox = new System.Windows.Forms.ComboBox();
+            this.itemComboBox = new System.Windows.Forms.ComboBox();
+            this.stockInQuantityTextBox = new System.Windows.Forms.TextBox();
+            this.reorderLevelTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.categorySetupSaveButton = new System.Windows.Forms.Button();
+            this.StockInSaveButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.avalibleQuantityTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // comboBox2
+            // companyComboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(212, 57);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(186, 21);
-            this.comboBox2.TabIndex = 27;
+            this.companyComboBox.FormattingEnabled = true;
+            this.companyComboBox.Location = new System.Drawing.Point(212, 57);
+            this.companyComboBox.Name = "companyComboBox";
+            this.companyComboBox.Size = new System.Drawing.Size(186, 21);
+            this.companyComboBox.TabIndex = 27;
             // 
-            // comboBox1
+            // itemComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(212, 101);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(186, 21);
-            this.comboBox1.TabIndex = 26;
+            this.itemComboBox.FormattingEnabled = true;
+            this.itemComboBox.Location = new System.Drawing.Point(212, 101);
+            this.itemComboBox.Name = "itemComboBox";
+            this.itemComboBox.Size = new System.Drawing.Size(186, 21);
+            this.itemComboBox.TabIndex = 26;
             // 
-            // textBox1
+            // stockInQuantityTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(212, 225);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 20);
-            this.textBox1.TabIndex = 24;
+            this.stockInQuantityTextBox.Location = new System.Drawing.Point(212, 225);
+            this.stockInQuantityTextBox.Name = "stockInQuantityTextBox";
+            this.stockInQuantityTextBox.Size = new System.Drawing.Size(186, 20);
+            this.stockInQuantityTextBox.TabIndex = 24;
             // 
-            // categorySetupNameTextBox
+            // reorderLevelTextBox
             // 
-            this.categorySetupNameTextBox.Location = new System.Drawing.Point(212, 146);
-            this.categorySetupNameTextBox.Name = "categorySetupNameTextBox";
-            this.categorySetupNameTextBox.Size = new System.Drawing.Size(186, 20);
-            this.categorySetupNameTextBox.TabIndex = 25;
+            this.reorderLevelTextBox.Location = new System.Drawing.Point(212, 146);
+            this.reorderLevelTextBox.Name = "reorderLevelTextBox";
+            this.reorderLevelTextBox.Size = new System.Drawing.Size(186, 20);
+            this.reorderLevelTextBox.TabIndex = 25;
             // 
             // label4
             // 
@@ -105,17 +105,17 @@
             this.label2.TabIndex = 21;
             this.label2.Text = "Stock In Quantity";
             // 
-            // categorySetupSaveButton
+            // StockInSaveButton
             // 
-            this.categorySetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
-            this.categorySetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.categorySetupSaveButton.ForeColor = System.Drawing.Color.White;
-            this.categorySetupSaveButton.Location = new System.Drawing.Point(304, 303);
-            this.categorySetupSaveButton.Name = "categorySetupSaveButton";
-            this.categorySetupSaveButton.Size = new System.Drawing.Size(94, 32);
-            this.categorySetupSaveButton.TabIndex = 23;
-            this.categorySetupSaveButton.Text = "Save";
-            this.categorySetupSaveButton.UseVisualStyleBackColor = false;
+            this.StockInSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.StockInSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.StockInSaveButton.ForeColor = System.Drawing.Color.White;
+            this.StockInSaveButton.Location = new System.Drawing.Point(304, 303);
+            this.StockInSaveButton.Name = "StockInSaveButton";
+            this.StockInSaveButton.Size = new System.Drawing.Size(94, 32);
+            this.StockInSaveButton.TabIndex = 23;
+            this.StockInSaveButton.Text = "Save";
+            this.StockInSaveButton.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -173,27 +173,27 @@
             this.label5.TabIndex = 21;
             this.label5.Text = "Avalible Quantity";
             // 
-            // textBox2
+            // avalibleQuantityTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(212, 187);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(186, 20);
-            this.textBox2.TabIndex = 24;
+            this.avalibleQuantityTextBox.Location = new System.Drawing.Point(212, 187);
+            this.avalibleQuantityTextBox.Name = "avalibleQuantityTextBox";
+            this.avalibleQuantityTextBox.Size = new System.Drawing.Size(186, 20);
+            this.avalibleQuantityTextBox.TabIndex = 24;
             // 
             // StockIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.categorySetupNameTextBox);
+            this.Controls.Add(this.companyComboBox);
+            this.Controls.Add(this.itemComboBox);
+            this.Controls.Add(this.avalibleQuantityTextBox);
+            this.Controls.Add(this.stockInQuantityTextBox);
+            this.Controls.Add(this.reorderLevelTextBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.categorySetupSaveButton);
+            this.Controls.Add(this.StockInSaveButton);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -208,20 +208,20 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox categorySetupNameTextBox;
+        private System.Windows.Forms.ComboBox companyComboBox;
+        private System.Windows.Forms.ComboBox itemComboBox;
+        private System.Windows.Forms.TextBox stockInQuantityTextBox;
+        private System.Windows.Forms.TextBox reorderLevelTextBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button categorySetupSaveButton;
+        private System.Windows.Forms.Button StockInSaveButton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox avalibleQuantityTextBox;
     }
 }

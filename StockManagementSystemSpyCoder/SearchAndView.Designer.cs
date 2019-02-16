@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.searchAndViewDataGridView = new System.Windows.Forms.DataGridView();
+            this.companyComboBox = new System.Windows.Forms.ComboBox();
+            this.categoryComboBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.categorySetupSaveButton = new System.Windows.Forms.Button();
+            this.SearchAndViewButton = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -43,40 +43,40 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AvailableQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ReorderLevel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.searchAndViewDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // searchAndViewDataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.searchAndViewDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.searchAndViewDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Company,
             this.Column2,
             this.AvailableQuantity,
             this.ReorderLevel});
-            this.dataGridView1.GridColor = System.Drawing.Color.White;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 223);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 31;
-            this.dataGridView1.Size = new System.Drawing.Size(562, 75);
-            this.dataGridView1.TabIndex = 62;
+            this.searchAndViewDataGridView.GridColor = System.Drawing.Color.White;
+            this.searchAndViewDataGridView.Location = new System.Drawing.Point(16, 223);
+            this.searchAndViewDataGridView.Name = "searchAndViewDataGridView";
+            this.searchAndViewDataGridView.RowHeadersWidth = 31;
+            this.searchAndViewDataGridView.Size = new System.Drawing.Size(562, 75);
+            this.searchAndViewDataGridView.TabIndex = 62;
             // 
-            // comboBox2
+            // companyComboBox
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(210, 32);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(186, 21);
-            this.comboBox2.TabIndex = 61;
+            this.companyComboBox.FormattingEnabled = true;
+            this.companyComboBox.Location = new System.Drawing.Point(210, 32);
+            this.companyComboBox.Name = "companyComboBox";
+            this.companyComboBox.Size = new System.Drawing.Size(186, 21);
+            this.companyComboBox.TabIndex = 61;
             // 
-            // comboBox1
+            // categoryComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(210, 76);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(186, 21);
-            this.comboBox1.TabIndex = 60;
+            this.categoryComboBox.FormattingEnabled = true;
+            this.categoryComboBox.Location = new System.Drawing.Point(210, 76);
+            this.categoryComboBox.Name = "categoryComboBox";
+            this.categoryComboBox.Size = new System.Drawing.Size(186, 21);
+            this.categoryComboBox.TabIndex = 60;
             // 
             // label4
             // 
@@ -98,43 +98,43 @@
             this.label3.TabIndex = 52;
             this.label3.Text = "Company";
             // 
-            // categorySetupSaveButton
+            // SearchAndViewButton
             // 
-            this.categorySetupSaveButton.BackColor = System.Drawing.Color.RoyalBlue;
-            this.categorySetupSaveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.categorySetupSaveButton.ForeColor = System.Drawing.Color.White;
-            this.categorySetupSaveButton.Location = new System.Drawing.Point(307, 145);
-            this.categorySetupSaveButton.Name = "categorySetupSaveButton";
-            this.categorySetupSaveButton.Size = new System.Drawing.Size(89, 31);
-            this.categorySetupSaveButton.TabIndex = 56;
-            this.categorySetupSaveButton.Text = "Search";
-            this.categorySetupSaveButton.UseVisualStyleBackColor = false;
+            this.SearchAndViewButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.SearchAndViewButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SearchAndViewButton.ForeColor = System.Drawing.Color.White;
+            this.SearchAndViewButton.Location = new System.Drawing.Point(307, 145);
+            this.SearchAndViewButton.Name = "SearchAndViewButton";
+            this.SearchAndViewButton.Size = new System.Drawing.Size(89, 31);
+            this.SearchAndViewButton.TabIndex = 56;
+            this.SearchAndViewButton.Text = "Search";
+            this.SearchAndViewButton.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel3.Location = new System.Drawing.Point(0, 8);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 416);
+            this.panel3.Size = new System.Drawing.Size(10, 443);
             this.panel3.TabIndex = 50;
             // 
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel1.Location = new System.Drawing.Point(7, 433);
+            this.panel1.Location = new System.Drawing.Point(0, 433);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(580, 12);
+            this.panel1.Size = new System.Drawing.Size(595, 10);
             this.panel1.TabIndex = 49;
             // 
             // panel4
             // 
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel4.Location = new System.Drawing.Point(584, 8);
+            this.panel4.Location = new System.Drawing.Point(585, -1);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(10, 426);
+            this.panel4.Size = new System.Drawing.Size(10, 444);
             this.panel4.TabIndex = 48;
             // 
             // panel2
@@ -179,19 +179,19 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.searchAndViewDataGridView);
+            this.Controls.Add(this.companyComboBox);
+            this.Controls.Add(this.categoryComboBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.categorySetupSaveButton);
+            this.Controls.Add(this.SearchAndViewButton);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Name = "SearchAndView";
             this.Size = new System.Drawing.Size(595, 442);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.searchAndViewDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -199,12 +199,12 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.DataGridView searchAndViewDataGridView;
+        private System.Windows.Forms.ComboBox companyComboBox;
+        private System.Windows.Forms.ComboBox categoryComboBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button categorySetupSaveButton;
+        private System.Windows.Forms.Button SearchAndViewButton;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;

@@ -96,9 +96,9 @@
             // 
             this.ViewSalesButton.FlatAppearance.BorderSize = 0;
             this.ViewSalesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ViewSalesButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ViewSalesButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ViewSalesButton.ForeColor = System.Drawing.Color.White;
-            this.ViewSalesButton.Location = new System.Drawing.Point(9, 363);
+            this.ViewSalesButton.Location = new System.Drawing.Point(9, 349);
             this.ViewSalesButton.Name = "ViewSalesButton";
             this.ViewSalesButton.Size = new System.Drawing.Size(133, 45);
             this.ViewSalesButton.TabIndex = 3;
@@ -111,9 +111,9 @@
             // 
             this.SearchViewItemsButton.FlatAppearance.BorderSize = 0;
             this.SearchViewItemsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SearchViewItemsButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchViewItemsButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SearchViewItemsButton.ForeColor = System.Drawing.Color.White;
-            this.SearchViewItemsButton.Location = new System.Drawing.Point(9, 319);
+            this.SearchViewItemsButton.Location = new System.Drawing.Point(9, 312);
             this.SearchViewItemsButton.Name = "SearchViewItemsButton";
             this.SearchViewItemsButton.Size = new System.Drawing.Size(133, 45);
             this.SearchViewItemsButton.TabIndex = 3;
@@ -126,9 +126,9 @@
             // 
             this.StockOutButton.FlatAppearance.BorderSize = 0;
             this.StockOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StockOutButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StockOutButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StockOutButton.ForeColor = System.Drawing.Color.White;
-            this.StockOutButton.Location = new System.Drawing.Point(9, 275);
+            this.StockOutButton.Location = new System.Drawing.Point(9, 268);
             this.StockOutButton.Name = "StockOutButton";
             this.StockOutButton.Size = new System.Drawing.Size(133, 45);
             this.StockOutButton.TabIndex = 3;
@@ -141,9 +141,9 @@
             // 
             this.StockInButton.FlatAppearance.BorderSize = 0;
             this.StockInButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StockInButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StockInButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StockInButton.ForeColor = System.Drawing.Color.White;
-            this.StockInButton.Location = new System.Drawing.Point(9, 231);
+            this.StockInButton.Location = new System.Drawing.Point(9, 224);
             this.StockInButton.Name = "StockInButton";
             this.StockInButton.Size = new System.Drawing.Size(133, 45);
             this.StockInButton.TabIndex = 3;
@@ -156,9 +156,9 @@
             // 
             this.SetupItemButton.FlatAppearance.BorderSize = 0;
             this.SetupItemButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SetupItemButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SetupItemButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SetupItemButton.ForeColor = System.Drawing.Color.White;
-            this.SetupItemButton.Location = new System.Drawing.Point(9, 187);
+            this.SetupItemButton.Location = new System.Drawing.Point(12, 182);
             this.SetupItemButton.Name = "SetupItemButton";
             this.SetupItemButton.Size = new System.Drawing.Size(133, 45);
             this.SetupItemButton.TabIndex = 3;
@@ -171,9 +171,9 @@
             // 
             this.SetupCompanyButton.FlatAppearance.BorderSize = 0;
             this.SetupCompanyButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SetupCompanyButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SetupCompanyButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SetupCompanyButton.ForeColor = System.Drawing.Color.White;
-            this.SetupCompanyButton.Location = new System.Drawing.Point(12, 147);
+            this.SetupCompanyButton.Location = new System.Drawing.Point(12, 138);
             this.SetupCompanyButton.Name = "SetupCompanyButton";
             this.SetupCompanyButton.Size = new System.Drawing.Size(133, 45);
             this.SetupCompanyButton.TabIndex = 3;
@@ -186,7 +186,7 @@
             // 
             this.SetupCategoryButton.FlatAppearance.BorderSize = 0;
             this.SetupCategoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SetupCategoryButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SetupCategoryButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SetupCategoryButton.ForeColor = System.Drawing.Color.White;
             this.SetupCategoryButton.Location = new System.Drawing.Point(12, 93);
             this.SetupCategoryButton.Name = "SetupCategoryButton";
@@ -254,6 +254,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(379, 243);
             this.pictureBox3.Name = "pictureBox3";

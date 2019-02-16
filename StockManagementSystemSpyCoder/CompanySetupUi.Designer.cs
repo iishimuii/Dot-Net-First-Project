@@ -35,9 +35,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.companySetupDataGridView = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.companySetupDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // companySetupNameTextBox
@@ -105,17 +105,17 @@
             this.panel4.Size = new System.Drawing.Size(10, 389);
             this.panel4.TabIndex = 9;
             // 
-            // dataGridView1
+            // companySetupDataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.companySetupDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.companySetupDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1});
-            this.dataGridView1.GridColor = System.Drawing.Color.White;
-            this.dataGridView1.Location = new System.Drawing.Point(70, 177);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 31;
-            this.dataGridView1.Size = new System.Drawing.Size(410, 58);
-            this.dataGridView1.TabIndex = 10;
+            this.companySetupDataGridView.GridColor = System.Drawing.Color.White;
+            this.companySetupDataGridView.Location = new System.Drawing.Point(70, 177);
+            this.companySetupDataGridView.Name = "companySetupDataGridView";
+            this.companySetupDataGridView.RowHeadersWidth = 31;
+            this.companySetupDataGridView.Size = new System.Drawing.Size(410, 58);
+            this.companySetupDataGridView.TabIndex = 10;
             // 
             // Column1
             // 
@@ -129,7 +129,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(551, 353);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.companySetupDataGridView);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -139,7 +139,7 @@
             this.Controls.Add(this.label1);
             this.Name = "CompanySetupUi";
             this.Text = "CompanySetupUi";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.companySetupDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -154,7 +154,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView companySetupDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
     }
 }
