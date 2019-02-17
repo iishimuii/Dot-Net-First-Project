@@ -62,8 +62,38 @@
     <Compile Include="HomeUi.Designer.cs">
       <DependentUpon>HomeUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="ItemSetup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ItemSetup.Designer.cs">
+      <DependentUpon>ItemSetup.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesBetweenTwoData.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SalesBetweenTwoData.Designer.cs">
+      <DependentUpon>SalesBetweenTwoData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchAndView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SearchAndView.Designer.cs">
+      <DependentUpon>SearchAndView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockIn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StockIn.Designer.cs">
+      <DependentUpon>StockIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StockOut.Designer.cs">
+      <DependentUpon>StockOut.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CategorySetupUi .resx">
       <DependentUpon>CategorySetupUi .cs</DependentUpon>
     </EmbeddedResource>
@@ -72,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomeUi.resx">
       <DependentUpon>HomeUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemSetup.resx">
+      <DependentUpon>ItemSetup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,6 +115,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SalesBetweenTwoData.resx">
+      <DependentUpon>SalesBetweenTwoData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchAndView.resx">
+      <DependentUpon>SearchAndView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockIn.resx">
+      <DependentUpon>StockIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockOut.resx">
+      <DependentUpon>StockOut.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
